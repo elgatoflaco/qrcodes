@@ -38,9 +38,11 @@ const updateQR = () => {
       selector: '#ethereum-qr-code',
     }).then((result) => {
       $('#resulting-string').val(result.value);
+      $('#download-options').show();
     });
   } catch (e) {
     $('#error-string').text(e);
+    $('#download-options').hide();
   }
 };
 const init = () => {

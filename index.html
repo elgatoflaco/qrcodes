@@ -15,7 +15,7 @@
 
   <script type="text/javascript">
   $(document).ready(function() {
-    $('#ethereum-qr-code').click(function() {
+    $('#download-qr').click(function() {
       var can = document.getElementsByTagName("canvas");
       var src = can[0].toDataURL("image/png");
       var address = $('#addess').val();
@@ -42,6 +42,9 @@
         <div class="dummy">
           <div id="ethereum-qr-code"></div>
           <p id="error-string"></p>
+        </div>
+        <div id="download-options" class="tcenter">
+          <input type="submit" id="download-qr" class="eWVqCU yZXOb button btn mt20" value="Download QR Code">
         </div>
       </div>
       <div class="col-md-6">
