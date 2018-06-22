@@ -9,14 +9,12 @@
     /* font-weight: 600; */
 }
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 h1 {
     font-weight: 700;
     line-height: 3.2rem;
     text-transform: uppercase;
-    color: #fff;
-    /* margin-bottom: 1.2rem; */
 }
 h2 {
     font-weight: 300;
@@ -65,7 +63,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 25px;
 }
 
 body>.container {
@@ -107,6 +105,12 @@ body>.container {
 }
 .eWVqCU:hover, .eWVqCU:focus {
     background-position: right center;
+}
+.beCuai:hover, .beCuai:focus {
+    box-shadow: inset 0 0 0 2px #fbbf02;
+}
+.only-br {
+    box-shadow: inset 0 0 0 2px #fbbf02;
 }
 .mb-bot{
   margin-bottom: 60px
